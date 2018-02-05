@@ -11,7 +11,7 @@ public  $testvar = 33;
     public function setTestvar($testvar) { 
          global   $gvar;
 static $stvar;
-         
+         ////zzzz///
          $kk = $testvar;
         echo 'pass in kk value  ' .$kk ."<br>";
         echo 'init class = last value of dosomething after add:  ' .$this->testvar ."<br>";
