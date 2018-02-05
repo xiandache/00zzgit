@@ -6,7 +6,7 @@ class Car
 
 {
 public  $testvar = 33;
-//////////////////////////////////////////
+
 
     public function setTestvar($testvar) { 
          global   $gvar;
